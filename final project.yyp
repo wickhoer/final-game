@@ -35,6 +35,7 @@
   "name":"final project",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"testing","path":"scripts/testing/testing.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
