@@ -16,9 +16,5 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[
-    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
-    {"name":"DF_Path_NoRorik_922477922","order":2,"path":"sprites/DF_Path_NoRorik_922477922/DF_Path_NoRorik_922477922.yy",},
-    {"name":"tzKyzs_1443873708","order":1,"path":"sprites/tzKyzs_1443873708/tzKyzs_1443873708.yy",},
-  ],
+  "ResourceOrderSettings":[],
 }

@@ -35,16 +35,12 @@
   "name":"final project",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"testing","path":"scripts/testing/testing.yy",},},
-    {"id":{"name":"DF_Path_NoRorik_922477922","path":"sprites/DF_Path_NoRorik_922477922/DF_Path_NoRorik_922477922.yy",},},
-    {"id":{"name":"tzKyzs_1443873708","path":"sprites/tzKyzs_1443873708/tzKyzs_1443873708.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
