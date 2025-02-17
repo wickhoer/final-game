@@ -40,11 +40,12 @@
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},},
     {"id":{"name":"obj_play_again","path":"objects/obj_play_again/obj_play_again.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"rm_under","path":"rooms/rm_under/rm_under.yy",},},
     {"id":{"name":"scr_collision_check","path":"scripts/scr_collision_check/scr_collision_check.yy",},},
     {"id":{"name":"scr_detect_key","path":"scripts/scr_detect_key/scr_detect_key.yy",},},
     {"id":{"name":"scr_ground_check","path":"scripts/scr_ground_check/scr_ground_check.yy",},},
     {"id":{"name":"scr_jump_check","path":"scripts/scr_jump_check/scr_jump_check.yy",},},
+    {"id":{"name":"scr_jump_new","path":"scripts/scr_jump_new/scr_jump_new.yy",},},
     {"id":{"name":"scr_set_sprite","path":"scripts/scr_set_sprite/scr_set_sprite.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},
@@ -63,7 +64,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_under","path":"rooms/rm_under/rm_under.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

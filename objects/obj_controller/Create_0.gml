@@ -1,8 +1,11 @@
-idtoget = layer_get_id("Background");
-game_background = layer_background_get_id(idtoget);
-layer_background_sprite(game_background,spr_overworld); 
+if (room != rm_under){
+  global.underworld = false;
+}
 
-underworld_active = false;
+if (room = rm_under) {
+	global.underworld = true
+}
+
 
 global.speedModifier = 1;
 
