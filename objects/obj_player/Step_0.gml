@@ -1,5 +1,10 @@
-scr_detect_key();
-scr_ground_check();
-scr_jump_check();
-scr_collision_check();
+scr_jump_new();
+
 scr_set_sprite();
+
+show_debug_message("Grounded: " + string(grounded));
+
+// show_debug_message("State: " + string(global.underworld));
+
+show_debug_message("Speed: " + string(vspeed));
+
