@@ -1,42 +1,40 @@
 function scr_jump_new() {
-    // Apply Gravity (Normal or Fast Fall)
+    
     if (!grounded) {
             if (global.underworld) {
-                vspeed -= 0.5;  // Pull upwards in the underworld
+                vspeed -= 0.4;  
             } else {
-                vspeed += 0.5;  // Pull downward in normal world
+                vspeed += 0.5;
             }
         }
 
-    // Jumping (Only if grounded)
+   
     if (keyboard_check_pressed(jump_key) && grounded) {
         if (global.underworld) {
-            vspeed = 10; // Move up in underworld (opposite direction)
+            vspeed = 10; 
         } else {
-            vspeed = -10; // Move up in normal world
+            vspeed = -10; 
         }
-        grounded = false; // Prevent multiple jumps
+        grounded = false; 
     }
 
-    // Apply vertical movement
     if (global.underworld) {
-        y += vspeed; // Move up in underworld (negative gravity)
+        y += vspeed; 
     } else {
-        y += vspeed; // Move down in normal world (positive gravity)
+        y += vspeed;
     }
     
    if (place_meeting(x, y + (global.underworld ? -1 : 1), obj_block)) {
     grounded = true;
-    vspeed = 0; // Stop downward motion
+    vspeed = 0;
 
-    // Resolve collision: Move player out of the ground/block
     if (!global.underworld) {
         while (place_meeting(x, y, obj_block)) {
-            y -= 1; // Move player up slightly if stuck in normal world
+            y -= 1; 
         }
     } else {
         while (place_meeting(x, y, obj_block)) {
-            y += 1; // Move player down slightly if stuck in the underworld
+            y += 1;
         }
     }
 } else {

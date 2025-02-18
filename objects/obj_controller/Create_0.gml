@@ -3,10 +3,14 @@ if (room != rm_under){
 }
 
 if (room = rm_under) {
-	global.underworld = true
+	alarm[1] = room_speed * 10;
 }
 
 
 global.speedModifier = 1;
 
+if (room = rm_under) {
+	event_perform(ev_alarm, 0);
+} else {
 alarm[0] = room_speed * 3;
+}
