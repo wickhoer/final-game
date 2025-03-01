@@ -3,6 +3,8 @@ if (room != rm_under){
 }
 
 if (room = rm_under) {
+	obj_player.jump_key = vk_down;
+    obj_player.fall_key = vk_up;
 	alarm[1] = room_speed * 10;
 }
 
