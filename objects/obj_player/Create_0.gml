@@ -15,4 +15,3 @@ falling = false;
 ducking = false;
 termVelocity = 50;
 
-
