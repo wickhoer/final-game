@@ -1,7 +1,7 @@
 grounded = false;
 
-jump_key = vk_up;  // Jump is down
-fall_key = vk_down;    // Fall is up
+jump_key = ord("W");
+fall_key = ord("S");  
 
 // gravity
 grav = 5;

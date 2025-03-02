@@ -2,11 +2,18 @@ function scr_jump_new() {
     static jumps = 0;
     
     if (!grounded) {
-        if (global.underworld) {
-            vspeed -= 0.4;
-        } else {
-            vspeed += 0.5;
-        }
+    
+	var fall = 0.5; 
+    
+	if (global.underworld) {
+        fall = -0.4; 
+    }
+
+    
+    if (keyboard_check(fall_key)) {
+        fall *= 4; 
+    }
+      vspeed += fall;
     }
     
     if (keyboard_check_pressed(jump_key) && (grounded || jumps < 2)) {
