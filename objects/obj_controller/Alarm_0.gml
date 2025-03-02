@@ -19,6 +19,7 @@ i.image_index = random_range(0, sprite_get_number(i.sprite_index) - 1);
 
 if (global.underworld) {
     i.image_angle = 180;
+	i.image_xscale = -1;
 }
 
 if (global.gameOver) exit;
