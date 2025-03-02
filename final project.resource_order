@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_block","order":5,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
+    {"name":"obj_counter","order":13,"path":"objects/obj_counter/obj_counter.yy",},
     {"name":"obj_info_btn","order":11,"path":"objects/obj_info_btn/obj_info_btn.yy",},
     {"name":"obj_menu_btn","order":10,"path":"objects/obj_menu_btn/obj_menu_btn.yy",},
     {"name":"obj_obstacle","order":2,"path":"objects/obj_obstacle/obj_obstacle.yy",},
@@ -46,6 +47,7 @@
     {"name":"spr_menu_btn","order":20,"path":"sprites/spr_menu_btn/spr_menu_btn.yy",},
     {"name":"spr_mushroom","order":5,"path":"sprites/spr_mushroom/spr_mushroom.yy",},
     {"name":"spr_mushroom2","order":13,"path":"sprites/spr_mushroom2/spr_mushroom2.yy",},
+    {"name":"spr_overworld_layer","order":27,"path":"sprites/spr_overworld_layer/spr_overworld_layer.yy",},
     {"name":"spr_overworld","order":7,"path":"sprites/spr_overworld/spr_overworld.yy",},
     {"name":"spr_play_again","order":15,"path":"sprites/spr_play_again/spr_play_again.yy",},
     {"name":"spr_player_duck","order":22,"path":"sprites/spr_player_duck/spr_player_duck.yy",},
@@ -59,6 +61,7 @@
     {"name":"spr_start_btn","order":17,"path":"sprites/spr_start_btn/spr_start_btn.yy",},
     {"name":"spr_tree","order":12,"path":"sprites/spr_tree/spr_tree.yy",},
     {"name":"spr_tree2","order":14,"path":"sprites/spr_tree2/spr_tree2.yy",},
-    {"name":"spr_underworld","order":6,"path":"sprites/spr_underworld/spr_underworld.yy",},
+    {"name":"spr_underworld_layer","order":28,"path":"sprites/spr_underworld_layer/spr_underworld_layer.yy",},
+    {"name":"spr_underworld","order":26,"path":"sprites/spr_underworld/spr_underworld.yy",},
   ],
 }

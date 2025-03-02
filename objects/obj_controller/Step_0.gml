@@ -1,4 +1,6 @@
+if (!global.underworld) {
 global.speedModifier += 0.0005;
+}
 
 score += 0.5 * global.speedModifier;
 
@@ -8,3 +10,4 @@ if (keyboard_check_pressed(ord("A")) && !global.underworld) {
     instance_create_depth(portal_x, portal_y, 0, obj_portal);
 }
 
+// show_debug_message("Speed: " + string(global.speedModifier));

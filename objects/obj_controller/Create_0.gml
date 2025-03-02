@@ -9,10 +9,15 @@ if (room = rm_under) {
 }
 
 
-global.speedModifier = 1;
+if (global.undercount <= 0) {
+    global.speedModifier = 1; 
+}
 
-if (room = rm_under) {
-	event_perform(ev_alarm, 0);
+
+if (room == rm_under) {
+    event_perform(ev_alarm, 0);  
+} else if (global.undercount > 0){
+	alarm[0] = room_speed * 1;
 } else {
-alarm[0] = room_speed * 3;
+    alarm[0] = room_speed * 3;
 }

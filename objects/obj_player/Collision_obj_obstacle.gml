@@ -1,6 +1,7 @@
 global.gameOver = true;
 grav = 0;
 global.speedModifier = 0;
+global.undercount = 0
 image_speed = 0;
 
 if (!instance_exists(obj_play_again)) {
