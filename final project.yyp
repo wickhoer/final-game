@@ -55,7 +55,6 @@
     {"id":{"name":"scr_ground_check","path":"scripts/scr_ground_check/scr_ground_check.yy",},},
     {"id":{"name":"scr_jump_check","path":"scripts/scr_jump_check/scr_jump_check.yy",},},
     {"id":{"name":"scr_jump_new","path":"scripts/scr_jump_new/scr_jump_new.yy",},},
-    {"id":{"name":"scr_move_portal","path":"scripts/scr_move_portal/scr_move_portal.yy",},},
     {"id":{"name":"scr_set_sprite","path":"scripts/scr_set_sprite/scr_set_sprite.yy",},},
     {"id":{"name":"snd_bg_music","path":"sounds/snd_bg_music/snd_bg_music.yy",},},
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},},
