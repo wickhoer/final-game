@@ -1,3 +1,5 @@
+collision_disabled = false;
+
 grounded = false;
 
 jump_key = ord("W");
