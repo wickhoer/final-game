@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_mushroom2",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":231,
   "bbox_left":202,
-  "bbox_right":254,
+  "bbox_right":256,
   "bbox_top":180,
   "collisionKind":1,
   "collisionTolerance":0,
