@@ -4,6 +4,7 @@ grounded = false;
 
 jump_key = ord("W");
 fall_key = ord("S");  
+duck_key = ord("S");
 
 // gravity
 grav = 5;

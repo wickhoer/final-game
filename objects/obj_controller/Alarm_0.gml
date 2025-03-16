@@ -7,7 +7,7 @@ var sprite_choice = choose(spr_rock, spr_mushroom, spr_mushroom2, spr_tree, spr_
 var y_pos = global.underworld ? room_height - 570 : room_height - 150;
 
 if (sprite_choice == spr_bird) {
-    y_pos = global.underworld ? room_height - 370 : room_height - 350; 
+    y_pos = global.underworld ? room_height - 420 : room_height - 280; 
 }
 
 if (sprite_choice == spr_portal && !global.underworld){

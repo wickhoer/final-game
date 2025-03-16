@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_info_btn",
+  "%Name":"obj_info_box",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_info_btn",
+  "name":"obj_info_box",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_info_btn",
-    "path":"sprites/spr_info_btn/spr_info_btn.yy",
+    "name":"spr_info_box",
+    "path":"sprites/spr_info_box/spr_info_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,
