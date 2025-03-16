@@ -15,11 +15,11 @@ if (!collision_disabled) {
     }
 
     // Highest score
-    var max_score = global.scores[0]; 
+    global.maxScore = global.scores[0]; 
     
 	for (var i = 1; i < array_length(global.scores); i++) {
-        if (global.scores[i] > max_score) {
-           max_score = global.scores[i]; 
+        if (global.scores[i] > global.maxScore) {
+           global.maxScore = global.scores[i]; 
         }
     }
 

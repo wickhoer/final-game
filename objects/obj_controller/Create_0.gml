@@ -1,3 +1,5 @@
+global.maxScore = 0;
+
 if (room != rm_under){
   global.underworld = false;
 }
