@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_underworld",
   "bboxMode":0,
-  "bbox_bottom":719,
+  "bbox_bottom":899,
   "bbox_left":0,
-  "bbox_right":1279,
+  "bbox_right":1999,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"29ae15ec-7a5f-4cad-a1bc-2073bf879f16","name":"29ae15ec-7a5f-4cad-a1bc-2073bf879f16","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7b85d35d-1565-4718-bfe9-273920ff0952","name":"7b85d35d-1565-4718-bfe9-273920ff0952","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":720,
+  "height":900,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d0c6a6b5-2121-4e05-9dc6-969bcfb64c59","blendMode":0,"displayName":"default","isLocked":false,"name":"d0c6a6b5-2121-4e05-9dc6-969bcfb64c59","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cc8ecfdc-0d62-4143-b49b-9740ff152803","blendMode":0,"displayName":"default","isLocked":false,"name":"cc8ecfdc-0d62-4143-b49b-9740ff152803","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_underworld",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"29ae15ec-7a5f-4cad-a1bc-2073bf879f16","path":"sprites/spr_underworld/spr_underworld.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7df22d5f-77cc-4429-aaa3-34a89bb62795","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b85d35d-1565-4718-bfe9-273920ff0952","path":"sprites/spr_underworld/spr_underworld.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"752731ec-d663-4a65-b61e-72aa58fbd96a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1280,
+  "width":2000,
 }
