@@ -59,6 +59,7 @@
     {"name":"spr_player_jump","order":1,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
     {"name":"spr_player_stand","order":2,"path":"sprites/spr_player_stand/spr_player_stand.yy",},
     {"name":"spr_portal","order":24,"path":"sprites/spr_portal/spr_portal.yy",},
+    {"name":"spr_rock_uw","order":36,"path":"sprites/spr_rock_uw/spr_rock_uw.yy",},
     {"name":"spr_rock","order":4,"path":"sprites/spr_rock/spr_rock.yy",},
     {"name":"spr_sound_off","order":19,"path":"sprites/spr_sound_off/spr_sound_off.yy",},
     {"name":"spr_sound_on","order":18,"path":"sprites/spr_sound_on/spr_sound_on.yy",},

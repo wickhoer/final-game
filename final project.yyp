@@ -79,6 +79,7 @@
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
     {"id":{"name":"spr_player_stand","path":"sprites/spr_player_stand/spr_player_stand.yy",},},
     {"id":{"name":"spr_portal","path":"sprites/spr_portal/spr_portal.yy",},},
+    {"id":{"name":"spr_rock_uw","path":"sprites/spr_rock_uw/spr_rock_uw.yy",},},
     {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},},
     {"id":{"name":"spr_sound_off","path":"sprites/spr_sound_off/spr_sound_off.yy",},},
     {"id":{"name":"spr_sound_on","path":"sprites/spr_sound_on/spr_sound_on.yy",},},
