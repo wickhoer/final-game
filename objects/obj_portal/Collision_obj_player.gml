@@ -11,3 +11,5 @@ global.undercount += 1;
 	  
 global.underworld = true;
 room_goto(rm_under);
+
+audio_play_sound(snd_switch, 1, false);
