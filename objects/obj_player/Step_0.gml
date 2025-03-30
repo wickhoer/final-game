@@ -3,12 +3,20 @@ if (global.gameOver) exit;
 scr_jump_new();
 scr_set_sprite();
 
-if (keyboard_check(ord("S"))) {
-    sprite_index = spr_player_duck;
-} else if (keyboard_check(ord("W")) && global.underworld) {
-    sprite_index = spr_player_duck;
-} else if (keyboard_check(ord("W"))) {
-    sprite_index = spr_player_jump;
+if (global.underworld) {
+    if (keyboard_check(ord("S"))) {
+        sprite_index = spr_player_jump;
+    } else if (keyboard_check(ord("W"))) {
+        sprite_index = spr_player_duck;
+    } else {
+        sprite_index = spr_player_run;
+    }
 } else {
-    sprite_index = spr_player_run; 
+    if (keyboard_check(ord("W"))) {
+        sprite_index = spr_player_jump;
+    } else if (keyboard_check(ord("S"))) {
+        sprite_index = spr_player_duck;
+    } else {
+        sprite_index = spr_player_run;
+    }
 }
