@@ -4,10 +4,10 @@ randomize();
 var sprite_choice = choose(spr_rock, spr_mushroom, spr_mushroom2, spr_tree, spr_tree2, spr_bird, spr_portal);
 
 // Bestäm Y-position baserat på om hindret är en fågel
-var y_pos = global.underworld ? room_height - 675 : room_height - 175;
+var y_pos = global.underworld ? room_height - 500 : room_height - 175;
 
 if (sprite_choice == spr_bird) {
-    y_pos = global.underworld ? room_height - 420 : room_height - 325; 
+    y_pos = global.underworld ? room_height - 500 : room_height - 325; 
 }
 
 if (sprite_choice == spr_portal && !global.underworld){
