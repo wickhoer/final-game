@@ -15,7 +15,7 @@ if (sprite_choice == spr_portal && !global.underworld){
 	alarm[0] = room_speed * random_range(1/global.speedModifier, 3/global.speedModifier);
 	exit;
 } else if(global.underworld) {
-	sprite_choice = spr_rock_uw
+	sprite_choice = choose(spr_rock_uw, spr_tornado);
 }
 
 

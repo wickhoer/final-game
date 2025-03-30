@@ -65,6 +65,7 @@
     {"name":"spr_sound_on","order":18,"path":"sprites/spr_sound_on/spr_sound_on.yy",},
     {"name":"spr_start_bg","order":16,"path":"sprites/spr_start_bg/spr_start_bg.yy",},
     {"name":"spr_start_btn","order":17,"path":"sprites/spr_start_btn/spr_start_btn.yy",},
+    {"name":"spr_tornado","order":37,"path":"sprites/spr_tornado/spr_tornado.yy",},
     {"name":"spr_tree","order":12,"path":"sprites/spr_tree/spr_tree.yy",},
     {"name":"spr_tree2","order":14,"path":"sprites/spr_tree2/spr_tree2.yy",},
     {"name":"spr_underworld_layer","order":28,"path":"sprites/spr_underworld_layer/spr_underworld_layer.yy",},
@@ -72,6 +73,5 @@
     {"name":"spr_uw_player_duck","order":34,"path":"sprites/spr_uw_player_duck/spr_uw_player_duck.yy",},
     {"name":"spr_uw_player_jump","order":35,"path":"sprites/spr_uw_player_jump/spr_uw_player_jump.yy",},
     {"name":"spr_uw_player_run","order":33,"path":"sprites/spr_uw_player_run/spr_uw_player_run.yy",},
-    {"name":"Sprite26","order":16,"path":"sprites/Sprite26/Sprite26.yy",},
   ],
 }
