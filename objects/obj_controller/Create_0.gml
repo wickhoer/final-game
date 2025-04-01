@@ -4,9 +4,9 @@ if (room != rm_under){
   global.underworld = false;
 }
 
-if (room = rm_under) {
+if (room == rm_under) {
 	obj_player.jump_key = ord("S");
-    obj_player.fall_key = ord("W")
+    obj_player.fall_key = ord("W");
 	alarm[1] = room_speed * 10;
 }
 
